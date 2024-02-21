@@ -25,7 +25,7 @@ let guiControls = {
 
 // Scales for the planets to make them a pleasant size relative to each other
 const planetScales = {
-    "Sun": 23*1, // Sun is only one true size all others are increased by 3
+    "Sun": 23*1, // Inner planets are increased by 3
     "Mercury": 0.383*3,
     "Venus": 0.949*3,
     "Earth": 1*3,
