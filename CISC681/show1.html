@@ -2,11 +2,47 @@
 <html lang="en">
 	<head>
         <style type="text/css">
+
+			/* Custom styles for dat.GUI */
+			.dg .main {
+				background-color: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent black */
+				color: rgb(10, 237, 78) !important; /* White text color */
+				border: 4px solid #00ff00 !important; /* Futuristic green border */
+				border-radius: 4px !important; /* Rounded corners */
+				box-shadow: 0 0 10px #00ff00 !important; /* Green glow effect */
+				padding-bottom: 20px !important; /* Increase as needed */
+			}
+
+			.dg .close-button {
+				color: #00ff00 !important; /* Green close button */
+			}
+
+			.dg .title {
+				color: #00ff00 !important; /* Green titles */
+			}
+
+			.dg .slider {
+				background-color: #333 !important; /* Darker sliders for contrast */
+			}
+
+			.dg .button {
+				background-color: #222 !important; /* Dark button backgrounds */
+				border-color: #00ff00 !important; /* Green border for buttons */
+				color: #00ff00 !important; /* Green text for buttons */
+			}
+
+			.dg select {
+				background-color: #000 !important; /* Black background for dropdowns */
+				color: #00ff00 !important; /* Green text for dropdowns */
+			}
+
+
             body {
                 margin: 0;
                 overflow: hidden;
             }
         </style>
+
 		<script src="lib/three.min.js"></script>
         <!---
 		<script src="lib/Detector.js"></script>
@@ -34,6 +70,7 @@
 			    document.getElementsByTagName('head')[0].appendChild(thescript);
 		    }
         }
+
 		</script>
 	</head>
 	<body onload="init()">
