@@ -48,6 +48,16 @@ const planetDistances = {
     "Neptune": 1050
 };
 
+/* Bellow is a true scale if needed later
+Mercury: 100.0
+Venus: 175.0
+Earth: 250.0
+Mars: 375.0
+Jupiter: 1300.0
+Saturn: 2400.0
+Uranus: 4800.0
+Neptune: 7500.0 */
+
 // Textures for the planets, assumed to be in a directory 'textures/'
 const planetTextures = {
     "Sun": 'textures/sun.jpg',
