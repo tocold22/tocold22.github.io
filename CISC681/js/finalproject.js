@@ -30,8 +30,8 @@ const planetScales = {
     "Venus": 0.949*3,
     "Earth": 1*3,
     "Mars": 0.532*3,
-    "Jupiter": 11.21*3,
-    "Saturn": 9.45*3,
+    "Jupiter": 11.21*2,
+    "Saturn": 9.45*2,
     "Uranus": 4*3,
     "Neptune": 3.88*3
 };
