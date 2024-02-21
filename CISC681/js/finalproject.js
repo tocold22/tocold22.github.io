@@ -30,10 +30,10 @@ const planetScales = {
     "Venus": 0.949*3,
     "Earth": 1*3,
     "Mars": 0.532*3,
-    "Jupiter": 11.21*2,
-    "Saturn": 9.45*2,
-    "Uranus": 4*3,
-    "Neptune": 3.88*3
+    "Jupiter": 11.21*1,
+    "Saturn": 9.45*1,
+    "Uranus": 4*1,
+    "Neptune": 3.88*1
 };
 
 // Distances to offset each planet from the sun, not to scale for visualization purposes
